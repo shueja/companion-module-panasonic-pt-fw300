@@ -1,0 +1,32 @@
+{
+	"name": "panasonic-local-projector",
+	"version": "3.4.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint:raw": "eslint --ext .ts --ext .js --ignore-pattern dist --ignore-pattern pkg",
+		"lint": "yarn lint:raw ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-panasonic-projector.git"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@companion-module/base": "^1.12.1",
+		"ntcontrol-connection": "file:../ntcontrol-connection"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^3.0.2",
+		"eslint": "^10.6.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-n": "^16.0.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^5.0.1",
+		"eslint-plugin-promise": "^6.0.0",
+		"eslint-plugin-standard": "^5.0.0",
+		"prettier": "^3.9.4"
+	},
+	"packageManager": "yarn@4.13.0"
+}
